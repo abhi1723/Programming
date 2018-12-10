@@ -27,7 +27,7 @@ int main()
         k++;
         t--;
     }
-    for(int i=0;i<=k;i++)
+    for(int i=0;i<k;i++)
        cout<<result[i]<<endl;
     return 0;
 }
