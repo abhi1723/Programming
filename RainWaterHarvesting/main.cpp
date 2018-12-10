@@ -40,12 +40,6 @@ int main()
     {
         sum+=(min(left[i],right[i])-A[i]);
     }
-    for(int i=0;i<N;i++)
-        cout<<left[i]<<" ";
-        cout<<endl;
-         for(int i=0;i<N;i++)
-        cout<<right[i]<<" ";
-        cout<<endl;
-        cout<<sum;
+        cout<<sum<<endl;
     return 0;
 }
